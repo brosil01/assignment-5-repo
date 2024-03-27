@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Two</title>
+    <style>
+        .banner {
+            height: 300px;
+            width: 100%;
+        }
+        table {
+        border: 1px solid;
+        }
+        th {
+        border: 1px solid;
+        }
+        td {
+        border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class = "banner">
+        <svg width = "100%" height = "300px">
+            <rect x = "0" y = "0" height = "300" width = "100%" style="fill: bisque; stroke:rgb(237, 149, 41); stroke-width: 9" />
+            <polygon points="50, 40 20, 90 110 90 80, 140 65, 90"
+            style="fill:rgb(231, 190, 123);stroke:rgb(237, 149, 41);stroke-width:3; opacity: 0.80;">
+            
+            <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="3s"
+            type="rotate"
+            from="0 85 85"
+            to="360 85 85"
+            repeatCount="indefinite" />
+            <animateMotion
+            path="M0 0, L1390 0"
+            begin="0s"
+            dur="9s"
+            repeatCount="indefinite"/>
+            </polygon>
+            <rect x = "35" y = "160" height = "3" width = "120" style="fill: rgb(237, 149, 41); opacity: 0.2;">
+                <animateMotion
+                path="M0 0, L1390 0"
+                begin="0s"
+                dur="9s"
+                repeatCount="indefinite"/>
+            </rect>
+            
+            <circle cx = "65" cy = "178" r = 9 style="fill: rgb(91, 53, 7); opacity: 0.2;">
+                <animateMotion
+                path="M0 0, L1390 0"
+                begin="0s"
+                dur="9s"
+                repeatCount="indefinite"/>
+            </circle>
+            <circle cx = "125" cy = "178" r = 9 style="fill: rgb(91, 53, 7); opacity: 0.2;">
+                <animateMotion
+                path="M0 0, L1390 0"
+                begin="0s"
+                dur="9s"
+                repeatCount="indefinite"/>
+            </circle>
+            <text x="50" y="250" font-family="Serif" font-size="60" fill="black">Joy Of Learning</text>
+
+        </svg>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="two.html">Page two</a></li>
+            <li><a href="three.html">Page three</a></li>
+
+        </ul>
+    </nav>
+    <table>
+        <caption> Table of Coding Resources</caption>
+        <thead>
+            <tr>
+                <th>Coding Resource</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>freecodecamp</td>
+                <td><a href="https://www.freecodecamp.org/" target="_blank"> https://www.freecodecamp.org/</a></td>
+            </tr>
+            <tr>
+                <td>Codecademy</td>
+                <td><a href="https://www.codecademy.com/" target="_blank"> https://www.codecademy.com/</a></td>
+            </tr>
+            <tr>
+                <td>W3Schools</td>
+                <td><a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
