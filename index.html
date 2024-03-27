@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .banner {
+            height: 300px;
+            width: 100%;
+        }
+    </style>
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <div class = "banner">
+        <svg width = "100%" height = "300px">
+            <rect x = "0" y = "0" height = "300" width = "100%" style="fill: bisque; stroke:rgb(237, 149, 41); stroke-width: 9" />
+            <polygon points="50, 40 20, 90 110 90 80, 140 65, 90"
+            style="fill:rgb(231, 190, 123);stroke:rgb(237, 149, 41);stroke-width:3; opacity: 0.80;">
+            
+            <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="3s"
+            type="rotate"
+            from="0 85 85"
+            to="360 85 85"
+            repeatCount="indefinite" />
+            <animateMotion
+            path="M0 0, L1390 0"
+            begin="0s"
+            dur="9s"
+            repeatCount="indefinite"/>
+            </polygon>
+            <rect x = "35" y = "160" height = "3" width = "120" style="fill: rgb(237, 149, 41); opacity: 0.2;">
+                <animateMotion
+                path="M0 0, L1390 0"
+                begin="0s"
+                dur="9s"
+                repeatCount="indefinite"/>
+            </rect>
+            
+            <circle cx = "65" cy = "178" r = 9 style="fill: rgb(91, 53, 7); opacity: 0.2;">
+                <animateMotion
+                path="M0 0, L1390 0"
+                begin="0s"
+                dur="9s"
+                repeatCount="indefinite"/>
+            </circle>
+            <circle cx = "125" cy = "178" r = 9 style="fill: rgb(91, 53, 7); opacity: 0.2;">
+                <animateMotion
+                path="M0 0, L1390 0"
+                begin="0s"
+                dur="9s"
+                repeatCount="indefinite"/>
+            </circle>
+            <text x="50" y="250" font-family="Serif" font-size="60" fill="black">Joy Of Learning</text>
+
+        </svg>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="two.html">Page two</a></li>
+            <li><a href="three.html">Page three</a></li>
+
+        </ul>
+    </nav>
+
+    <h1>Assignment 5</h1>
+    <h2 class="css-question">How to Apply CSS to HTML</h2>
+    <p class="css-question">CSS file can be added by using &#60;link&#62; element winth in &#60;head&#62;. </p>
+    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+    <p class="js-question">External JavaScript file can be included by using &#60;script&#62; with src attribute in &#60;head&#62;.<br> Example: <br><code>&#60;script src="script.js"&#62;&#60;/script&#62;</code> </p>
+    <p class="js-question">Inline JavaScript can be written by using  &#60;script&#62; followed by the JavaScript code. <br> Example: <br> <code><code>&#60;script&#62; <br>  console.log("This is inline JavaScript"); <br>&#60;/script&#62;</code></p>
+
+</body>
+</html>
